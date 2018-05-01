@@ -1,0 +1,6 @@
+ #!/bin/bash
+find . -name "npm-debug.log.*" -exec rm {} \;
+pm2 delete all
+pm2 start server.js -i 0
+pm2 flush
+

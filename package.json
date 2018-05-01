@@ -1,0 +1,25 @@
+{
+  "name": "userms",
+  "version": "1.0.0",
+  "description": "user microservice for communicating with api-gateway and mongoDB service",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tayo Amuneke",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.0.10",
+    "morgan": "^1.9.0",
+    "nodemailer": "^4.6.3",
+    "nodemon": "^1.17.2",
+    "randomstring": "^1.1.5",
+    "winston": "^3.0.0-rc3"
+  }
+}
